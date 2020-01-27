@@ -10,4 +10,8 @@ const getCookieValue = (name) => {
  return value;
 }
 
+const setCookieValue = (name, value) => {
+document.cookie = `${name}=${value}; max-age=3600; path=/`;
+}
+
 
