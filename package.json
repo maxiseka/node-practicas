@@ -1,0 +1,23 @@
+{
+  "name": "practicas",
+  "version": "1.0.0",
+  "description": "working with node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxiseka/node-practicas.git"
+  },
+  "author": "Gabriel Casas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxiseka/node-practicas/issues"
+  },
+  "homepage": "https://github.com/maxiseka/node-practicas#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0"
+  }
+}
