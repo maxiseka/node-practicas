@@ -1,6 +1,6 @@
 const http = require('http');
 
-
+console.info('iniciando script');
 const app = (req, res) => {
   console.info('request to> ', req.url);
   res.end('gracias x su visita');
